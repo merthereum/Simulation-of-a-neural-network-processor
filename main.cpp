@@ -147,7 +147,7 @@ int sc_main(int argc, char* argv[]) {
     (void)argv;
 
     // 5 PE, как в ЛР2
-    NNProcessor nnp("nnp", 2);
+    NNProcessor nnp("nnp", 5);
     sc_start();
     return 0;
 }
